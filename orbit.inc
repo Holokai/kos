@@ -40,7 +40,7 @@ function waitForDeorbit {
   until alt:radar < 5000 {
     wait 0.5.
   }
-  output(green,"Parashoot ready").
+  output(green,"Parachute ready").
   stage.
   until alt:radar < 1000 {
     wait 0.5.
